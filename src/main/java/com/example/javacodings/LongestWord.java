@@ -3,11 +3,11 @@ package com.example.javacodings;
     class Main {
 
         public static String LongestWord(String sen) {
-            String[] words = sen.split(" ");
-            String[] cleanedWords = new String[words.length];
+            String[] words = sen.split(" ");  /* split the string on the basis of space */
+            String[] cleanedWords = new String[words.length];  //intilize an  new Array to to store the words without specialCharacter
             for (int i = 0; i < words.length; i++) {
-                cleanedWords[i] = words[i].replaceAll("[^a-zA-Z0-9]", "");
-            }
+                cleanedWords[i] = words[i].replaceAll("[^a-zA-Z0-9]", "");//replace all the character except a to z,A to Z,0 to 9 with
+            }                                                                       //null string
 
             String longest="";
             for (int i=0;i<cleanedWords.length;i++)
@@ -22,7 +22,7 @@ package com.example.javacodings;
 
         public static void main (String[] args) {
 
-            System.out.print(LongestWord("hello123 her ertyuh"));
+            System.out.print(LongestWord("hello!@ her ertyuh"));
         }
 
     }
