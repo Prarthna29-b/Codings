@@ -1,6 +1,6 @@
 package com.example.javacodings;
 
-    class Main {
+    class LongestWord{
 
         public static String LongestWord(String sen) {
             String[] words = sen.split(" ");  /* split the string on the basis of space */

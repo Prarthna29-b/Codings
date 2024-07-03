@@ -11,7 +11,7 @@ public class AllSubsequences {
         int[] arr={3,1,2};
         List<Integer>list =new ArrayList<>();
         findSubsequencesOfString(s, ""); // Calling a function
-        findSubsequencesOfArray(list,arr,0);
+       findSubsequencesOfArray(list,arr,0);
         System.out.println(al);
     }
     private static void findSubsequencesOfString(String s, String ans)
