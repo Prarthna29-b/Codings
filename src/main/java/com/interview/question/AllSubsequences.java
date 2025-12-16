@@ -7,7 +7,7 @@ public class AllSubsequences {
     static List<String> al = new ArrayList<>();
     public static void main(String[] args)
     {
-        String s = "abc";
+        String s = "null";
         int[] arr={3,1,2};
         List<Integer>list =new ArrayList<>();
         findSubsequencesOfString(s, ""); // Calling a function
